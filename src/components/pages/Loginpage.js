@@ -1,11 +1,11 @@
 import React from 'react';
 import LoginForm from '../forms/LoginForm';
 
-class Loginpage extends React.Component {
+class LoginPage extends React.Component {
 
-    submit = data => {
+    submit = data => 
         console.log(data);
-    }
+    
     render() {
         return (
         <div>
@@ -17,4 +17,4 @@ class Loginpage extends React.Component {
     
 }
 
-export default Loginpage;
+export default LoginPage;
